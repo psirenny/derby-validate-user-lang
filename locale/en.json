@@ -1,0 +1,23 @@
+{
+  "validate": {
+    "user": {
+      "email": {
+        "required": "Email is required.",
+        "unique": "Email is already taken.",
+        "valid": "Email is invalid."
+      },
+      "password": {
+        "maximumLength": "Password must be at most {maximumLength} characters long.",
+        "minimumLength": "Password must be at least {minimumLength} characters long.",
+        "required": "Password is required."
+      },
+      "username": {
+        "alphanumeric": "Username must be alphanumeric.",
+        "maximumLength": "Username must be at most {maximumLength} characters long.",
+        "minimumLength": "Username must be at least {minimumLength} characters long.",
+        "required": "Username is required.",
+        "unique": "Username is already taken."
+      }
+    }
+  }
+}

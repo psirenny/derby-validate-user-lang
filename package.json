@@ -1,0 +1,32 @@
+{
+  "author": "psirenny <djtorres0@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/psirenny/derby-validate-user-lang/issues"
+  },
+  "dependencies": {
+    "derby-lang-fs": "*",
+    "lodash": "*",
+    "validator": "*"
+  },
+  "description": "Enable user policies for Derby User.",
+  "keywords": [
+    "derby",
+    "language",
+    "schema",
+    "user",
+    "validate",
+    "validation"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "derby-validate-user-lang",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/psirenny/derby-validate-user-lang.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.0"
+}
