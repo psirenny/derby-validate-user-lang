@@ -8,7 +8,7 @@
     "lodash": "*",
     "validator": "*"
   },
-  "description": "Enable user policies for Derby User.",
+  "description": "Add language translation to Derby User validation.",
   "keywords": [
     "derby",
     "language",
