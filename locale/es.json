@@ -2,10 +2,10 @@
   "validate": {
     "user": {
       "confirmPassword": {
-        "matches": "La contraseña no coincide."
+        "matches": "La contraseña no coincide.",
+        "required": "Confirmación de la contraseña requerida."
       },
       "email": {
-        "changed": "Usted ya tiene este correo electrónico.",
         "exists": "Correo electrónico no se encuentra.",
         "required": "Se requiere Email.",
         "unique": "Correo electrónico ya está en uso.",
@@ -19,7 +19,6 @@
       },
       "username": {
         "alphanumeric": "Nombre de usuario debe ser alfanumérico.",
-        "changed": "Usted ya tiene este nombre de usuario.",
         "exists": "Nombre de usuario no encontrado.",
         "maximumLength": "Nombre de usuario debe estar en la mayoría de los {maximumLength} caracteres de longitud.",
         "minimumLength": "Nombre de usuario debe tener al menos {minimumLength} caracteres.",

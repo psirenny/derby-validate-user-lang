@@ -2,10 +2,10 @@
   "validate": {
     "user": {
       "confirmPassword": {
-        "matches": "Password does not match."
+        "matches": "Password does not match.",
+        "required": "Password confirmation required."
       },
       "email": {
-        "changed": "You already have this email.",
         "exists": "Email not found.",
         "required": "Email is required.",
         "unique": "Email is already taken.",
@@ -19,7 +19,6 @@
       },
       "username": {
         "alphanumeric": "Username must be alphanumeric.",
-        "changed": "You already have this username.",
         "exists": "Username not found.",
         "maximumLength": "Username must be at most {maximumLength} characters long.",
         "minimumLength": "Username must be at least {minimumLength} characters long.",
