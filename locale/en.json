@@ -1,22 +1,33 @@
 {
   "validate": {
     "user": {
+      "confirmPassword": {
+        "matches": "Password does not match."
+      },
       "email": {
+        "changed": "You already have this email.",
+        "exists": "Email not found.",
         "required": "Email is required.",
         "unique": "Email is already taken.",
         "valid": "Email is invalid."
       },
       "password": {
+        "matches": "Incorrect password.",
         "maximumLength": "Password must be at most {maximumLength} characters long.",
         "minimumLength": "Password must be at least {minimumLength} characters long.",
         "required": "Password is required."
       },
       "username": {
         "alphanumeric": "Username must be alphanumeric.",
+        "changed": "You already have this username.",
+        "exists": "Username not found.",
         "maximumLength": "Username must be at most {maximumLength} characters long.",
         "minimumLength": "Username must be at least {minimumLength} characters long.",
         "required": "Username is required.",
         "unique": "Username is already taken."
+      },
+      "usernameOrEmail": {
+        "required": "Username or email required."
       }
     }
   }
